@@ -54,7 +54,7 @@ use Hyperf\Constants\EnumConstantsTrait;
 #[Constants]
 enum ErrorCode: int
 {
-    use EnumConstantsTrait
+    use EnumConstantsTrait;
     #[Message("Server Error！")]
     case SERVER_ERROR = 500;
 
